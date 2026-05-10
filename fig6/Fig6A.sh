@@ -1,0 +1,1 @@
+micromamba run -n visualiz circos -conf Fig6A.conf -outputdir results -outputfile Fig6A.png
