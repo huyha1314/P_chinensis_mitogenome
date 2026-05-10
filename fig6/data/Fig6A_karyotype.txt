@@ -1,3 +1,0 @@
-chr - VN1_cp VN1_cp 0 148234 green
-chr - VN1_mt_chr1 VN1_mt_chr1 0 201950 red
-chr - VN1_mt_chr2 VN1_mt_chr2 0 168448 red
