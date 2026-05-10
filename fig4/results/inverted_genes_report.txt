@@ -1,0 +1,28 @@
+Found 384 inverted structural blocks in CH2.
+
+Gene Name       | Type       | Located in Block
+---------------------------------------------
+atp4            | CDS        | LCB_27         
+atp6            | CDS        | LCB_447        
+ccmB            | CDS        | LCB_440        
+ccmFC           | CDS        | LCB_369        
+mttB            | CDS        | LCB_362        
+nad3            | CDS        | LCB_328        
+nad4L           | CDS        | LCB_431        
+nad9            | CDS        | LCB_361        
+rps12           | CDS        | LCB_328        
+trnW-CCA        | tRNA       | LCB_106        
+trnY-GUA        | tRNA       | LCB_21         
+trnC-GCA        | tRNA       | LCB_33         
+trnE-UUC        | tRNA       | LCB_392        
+trnF-GAA        | tRNA       | LCB_416        
+trnH-GUG        | tRNA       | LCB_392        
+trnK-UUU        | tRNA       | LCB_441        
+trnM-CAU        | tRNA       | LCB_299        
+trnP-UGG        | tRNA       | LCB_416        
+trnP-UGG        | tRNA       | LCB_394        
+trnS-GCU        | tRNA       | LCB_416        
+trnS-UGA        | tRNA       | LCB_441        
+trnW-CCA        | tRNA       | LCB_394        
+---------------------------------------------
+Total genes trapped inside the CH2 inversions: 22
