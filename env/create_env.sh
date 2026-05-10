@@ -1,1 +1,0 @@
-micromamba env create -y -f env.yml
