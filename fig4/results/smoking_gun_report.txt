@@ -1,0 +1,104 @@
+1. Loading Structural Blocks...
+   -> Found 157 inverted blocks to investigate.
+2. Loading BLAST Repeats...
+   -> Found 185 valid repeat pairs.
+
+3. Cross-Referencing Repeats with Breakpoints...
+--------------------------------------------------------------------------------
+Block ID        | Breakpoint Location  | Repeat Found (Smoking Gun)         
+--------------------------------------------------------------------------------
+LCB_7           | Start (~49471)       | 66bp (96.97% match) *INTER-CHROMOSOMAL*
+LCB_8           | Start (~48934)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_9           | End (~47645)       | 55bp (87.273% match) *INTER-CHROMOSOMAL*
+LCB_11          | Start (~41850)       | 133bp (93.985% match) *INTER-CHROMOSOMAL*
+LCB_12          | Start (~41421)       | 55bp (98.182% match)
+LCB_13          | End (~41346)       | 55bp (98.182% match)
+LCB_14          | Start (~35586)       | 75bp (94.667% match)
+LCB_15          | Start (~35567)       | 75bp (94.667% match)
+LCB_16          | End (~35565)       | 75bp (94.667% match)
+LCB_26          | Start (~231660)       | 67bp (92.537% match) *INTER-CHROMOSOMAL*
+LCB_27          | Start (~232296)       | 67bp (92.537% match) *INTER-CHROMOSOMAL*
+LCB_28          | Start (~238460)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_29          | Start (~239002)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_31          | End (~777)       | 146bp (81.507% match) *INTER-CHROMOSOMAL*
+LCB_32          | Start (~891)       | 146bp (81.507% match) *INTER-CHROMOSOMAL*
+LCB_33          | End (~10144)       | 119bp (99.16% match) *INTER-CHROMOSOMAL*
+LCB_34          | Start (~10146)       | 119bp (99.16% match) *INTER-CHROMOSOMAL*
+LCB_35          | Start (~10174)       | 119bp (99.16% match) *INTER-CHROMOSOMAL*
+LCB_37          | End (~13866)       | 169bp (98.225% match) *INTER-CHROMOSOMAL*
+LCB_38          | Start (~17233)       | 65bp (96.923% match) *INTER-CHROMOSOMAL*
+LCB_39          | Start (~17429)       | 65bp (96.923% match) *INTER-CHROMOSOMAL*
+LCB_46          | End (~196111)       | 62bp (100.0% match)
+LCB_52          | Start (~32526)       | 65bp (96.923% match)
+LCB_87          | Start (~89098)       | 109bp (83.486% match) *INTER-CHROMOSOMAL*
+LCB_88          | Start (~89035)       | 109bp (83.486% match) *INTER-CHROMOSOMAL*
+LCB_89          | End (~88185)       | 96bp (98.958% match) *INTER-CHROMOSOMAL*
+LCB_91          | Start (~82818)       | 72bp (95.833% match)
+LCB_92          | Start (~82216)       | 85bp (100.0% match) *INTER-CHROMOSOMAL*
+LCB_104         | End (~64826)       | 64bp (93.75% match) *INTER-CHROMOSOMAL*
+LCB_105         | Start (~65031)       | 64bp (93.75% match) *INTER-CHROMOSOMAL*
+LCB_107         | Start (~68990)       | 55bp (98.182% match)
+LCB_108         | Start (~79472)       | 87bp (89.655% match)
+LCB_110         | End (~68699)       | 55bp (98.182% match)
+LCB_111         | Start (~80572)       | 60bp (95.0% match)
+LCB_112         | End (~82149)       | 85bp (100.0% match) *INTER-CHROMOSOMAL*
+LCB_116         | End (~21753)       | 66bp (86.364% match) *INTER-CHROMOSOMAL*
+LCB_152         | Start (~21857)       | 66bp (86.364% match) *INTER-CHROMOSOMAL*
+LCB_153         | End (~23107)       | 70bp (91.429% match)
+LCB_154         | Start (~23341)       | 70bp (91.429% match)
+LCB_157         | Start (~24011)       | 70bp (91.429% match)
+LCB_163         | Start (~201200)       | 54bp (100.0% match)
+LCB_167         | End (~201072)       | 54bp (100.0% match)
+LCB_169         | Start (~199583)       | 60bp (95.0% match)
+LCB_172         | End (~199441)       | 60bp (95.0% match)
+LCB_177         | Start (~197552)       | 62bp (100.0% match)
+LCB_180         | Start (~197551)       | 62bp (100.0% match)
+LCB_181         | Start (~197348)       | 62bp (100.0% match)
+LCB_184         | Start (~196305)       | 62bp (100.0% match)
+LCB_194         | Start (~963)       | 146bp (81.507% match) *INTER-CHROMOSOMAL*
+LCB_195         | Start (~212097)       | 491bp (100.0% match)
+LCB_197         | Start (~10173)       | 119bp (99.16% match) *INTER-CHROMOSOMAL*
+LCB_199         | Start (~209273)       | 52bp (96.154% match)
+LCB_201         | Start (~21754)       | 66bp (86.364% match) *INTER-CHROMOSOMAL*
+LCB_202         | End (~209167)       | 52bp (96.154% match)
+LCB_215         | Start (~35566)       | 75bp (94.667% match)
+LCB_224         | Start (~82150)       | 85bp (100.0% match) *INTER-CHROMOSOMAL*
+LCB_231         | Start (~32556)       | 65bp (96.923% match)
+LCB_247         | Start (~196112)       | 62bp (100.0% match)
+LCB_257         | End (~79471)       | 87bp (89.655% match)
+LCB_269         | Start (~68700)       | 55bp (98.182% match)
+LCB_282         | Start (~32617)       | 65bp (96.923% match)
+LCB_284         | End (~32525)       | 65bp (96.923% match)
+LCB_288         | Start (~209168)       | 52bp (96.154% match)
+LCB_315         | End (~82817)       | 72bp (95.833% match)
+LCB_327         | Start (~22289)       | 66bp (86.364% match) *INTER-CHROMOSOMAL*
+LCB_331         | Start (~238787)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_343         | End (~41849)       | 133bp (93.985% match) *INTER-CHROMOSOMAL*
+LCB_361         | End (~46279)       | 95bp (97.895% match)
+LCB_376         | Start (~41347)       | 55bp (98.182% match)
+LCB_377         | Start (~38624)       | 60bp (86.667% match) *INTER-CHROMOSOMAL*
+LCB_379         | End (~49470)       | 66bp (96.97% match) *INTER-CHROMOSOMAL*
+LCB_380         | End (~48932)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_383         | Start (~778)       | 146bp (81.507% match) *INTER-CHROMOSOMAL*
+LCB_389         | Start (~80580)       | 60bp (95.0% match)
+LCB_391         | Start (~49760)       | 66bp (96.97% match) *INTER-CHROMOSOMAL*
+LCB_392         | Start (~13867)       | 169bp (98.225% match) *INTER-CHROMOSOMAL*
+LCB_393         | Start (~17237)       | 65bp (96.923% match) *INTER-CHROMOSOMAL*
+LCB_408         | End (~231659)       | 67bp (92.537% match) *INTER-CHROMOSOMAL*
+LCB_415         | Start (~64827)       | 64bp (93.75% match) *INTER-CHROMOSOMAL*
+LCB_416         | Start (~65096)       | 64bp (93.75% match) *INTER-CHROMOSOMAL*
+LCB_417         | Start (~21757)       | 66bp (86.364% match) *INTER-CHROMOSOMAL*
+LCB_427         | Start (~201585)       | 54bp (100.0% match)
+LCB_428         | Start (~201073)       | 54bp (100.0% match)
+LCB_429         | End (~238459)       | 62bp (95.161% match) *INTER-CHROMOSOMAL*
+LCB_431         | Start (~231762)       | 67bp (92.537% match) *INTER-CHROMOSOMAL*
+LCB_432         | Start (~23108)       | 70bp (91.429% match)
+LCB_441         | Start (~212101)       | 491bp (100.0% match)
+LCB_442         | End (~212095)       | 491bp (100.0% match)
+LCB_447         | Start (~88186)       | 96bp (98.958% match) *INTER-CHROMOSOMAL*
+LCB_449         | Start (~199604)       | 60bp (95.0% match)
+LCB_450         | Start (~199442)       | 60bp (95.0% match)
+LCB_451         | Start (~198083)       | 62bp (100.0% match)
+--------------------------------------------------------------------------------
+Total Smoking Guns Found: 92
+Success! These repeats are the physical cause of your inversions.
