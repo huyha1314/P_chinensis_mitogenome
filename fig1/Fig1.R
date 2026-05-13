@@ -52,10 +52,10 @@ my_map <- ggplot(data = world_map) +
 print(my_map)
 
 # 6. Export as a Vector PDF
-ggsave("results/Parashorea_Geographic_Map_Final.pdf", plot = my_map, width = 6, height = 5, units = "in", device = "pdf", bg = "white")
+ggsave("results/Fig1_Parashorea_Geographic_Map_Final.pdf", plot = my_map, width = 6, height = 5, units = "in", device = "pdf", bg = "white")
 
 # 7. Export as a high-resolution PNG
-ggsave("results/Parashorea_Geographic_Map_Final.png", plot = my_map, width = 6, height = 5, units = "in", dpi = 600, bg = "white")
+ggsave("results/Fig1_Parashorea_Geographic_Map_Final.png", plot = my_map, width = 6, height = 5, units = "in", dpi = 600, bg = "white")
 
 # 8. Export as a TIFF
-ggsave("results/Parashorea_Geographic_Map_Final.tiff", plot = my_map, width = 174, height = 145, units = "mm", dpi = 600, compression = "lzw", bg = "white")
+ggsave("results/Fig1_Parashorea_Geographic_Map_Final.tiff", plot = my_map, width = 174, height = 145, units = "mm", dpi = 600, compression = "lzw", bg = "white")
