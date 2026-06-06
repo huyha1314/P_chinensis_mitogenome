@@ -1,15 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# ==============================================================
+# Figure 6: Phylogenetic Tree (Deep-time & Late Pleistocene Zoom)
+# ==============================================================
+
 set -e
 
-mkdir -p results
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR"
 
-echo "Generating Fig6A..."
-bash Fig6A.sh
+mkdir -p results data
 
-echo "Generating Fig6B..."
-bash Fig6B.sh
-
-echo "Combining figures..."
-micromamba run -n visualiz python combine_fig6.py
-
-echo "Done!"
+echo "Running Figure 6 R script..."
+pixi run Rscript Fig6.R
+echo "Converting to publication-ready CMYK TIFF..."
+pixi run python ../convert_cmyk.py results/Figure_6.png results/Figure_6_CMYK.tiff
+echo "Done! Outputs saved to results/"

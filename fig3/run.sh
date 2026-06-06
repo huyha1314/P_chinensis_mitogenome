@@ -1,7 +1,11 @@
 #!/bin/bash
 set -e
 
-echo "Running Figure 3 plotting script..."
-micromamba run -n visualiz python plot_fig3.py
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR"
 
+echo "Running Figure 3 plotting script..."
+pixi run python plot_fig3.py
+echo "Converting to publication-ready CMYK TIFF..."
+pixi run python ../convert_cmyk.py results/Fig3_Circular_Genomic_Map.png results/Fig3_Circular_Genomic_Map_CMYK.tiff
 echo "Done!"

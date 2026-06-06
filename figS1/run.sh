@@ -11,5 +11,7 @@ cd "$SCRIPT_DIR"
 mkdir -p results
 
 echo "Running Figure S1 Python script..."
-micromamba run -n visualiz python figS1.py
+pixi run python figS1.py
+echo "Converting to publication-ready CMYK TIFF..."
+pixi run python ../convert_cmyk.py results/FigureS1.png results/FigureS1_CMYK.tiff
 echo "Done! Outputs saved to results/"

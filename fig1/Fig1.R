@@ -55,7 +55,7 @@ print(my_map)
 ggsave("results/Fig1_Parashorea_Geographic_Map_Final.pdf", plot = my_map, width = 6, height = 5, units = "in", device = "pdf", bg = "white")
 
 # 7. Export as a high-resolution PNG
-ggsave("results/Fig1_Parashorea_Geographic_Map_Final.png", plot = my_map, width = 6, height = 5, units = "in", dpi = 600, bg = "white")
+ggsave("results/Fig1_Parashorea_Geographic_Map_Final.png", plot = my_map, width = 6, height = 5, units = "in", dpi = 600, bg = "white", device = png)
 
 # 8. Export as a TIFF
 ggsave("results/Fig1_Parashorea_Geographic_Map_Final.tiff", plot = my_map, width = 174, height = 145, units = "mm", dpi = 600, compression = "lzw", bg = "white")

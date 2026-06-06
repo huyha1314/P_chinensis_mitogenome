@@ -12,5 +12,7 @@ cd "$SCRIPT_DIR"
 mkdir -p results
 
 echo "Running Figure 5 R script (tanglegram)..."
-micromamba run -n visualiz Rscript fig5.R
+pixi run Rscript fig5.R
+echo "Converting to publication-ready CMYK TIFF..."
+pixi run python ../convert_cmyk.py results/Figure_5_Combined.png results/Figure_5_Combined_CMYK.tiff
 echo "Done! Outputs saved to results/"

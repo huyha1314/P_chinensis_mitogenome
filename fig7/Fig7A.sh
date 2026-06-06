@@ -1,0 +1,1 @@
+pixi run circos -conf Fig7A.conf -outputdir results -outputfile Fig7A.png
