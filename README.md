@@ -37,7 +37,28 @@ The repository is organized by figure panels. Each directory includes its own `d
 
 ## ⚙️ Installation & Setup
 
-We use **Pixi** (recommended) or **Micromamba** (or Conda) to manage the specialized bioinformatics environment. The environment pins all major dependencies to specific versions used in the study to ensure long-term reproducibility.
+> **⚠️ OS Requirement:** This pipeline and its automated scripts are designed to run **only on Ubuntu** Linux.
+
+We use **Pixi** (recommended) or **Micromamba/Conda** to manage the specialized bioinformatics environment. The environment pins all major dependencies to specific versions used in the study to ensure long-term reproducibility.
+
+### 1. Install a Package Manager
+
+**Install Pixi (Recommended)**
+```bash
+curl -fsSL https://pixi.sh/install.sh | bash
+```
+*For more details, see the [Pixi documentation](https://pixi.sh/latest/)*.
+
+**OR Install Miniconda**
+```bash
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+source ~/miniconda3/bin/activate
+```
+
+### 2. Environment Setup
 
 ### Option A: Using Pixi (Recommended, Automated)
 Simply run any of the execution scripts or commands. Pixi will automatically download, compile, and manage all R, Python, and bioinformatics dependencies (like Circos, ggtree, etc.) in a local environment:
@@ -49,15 +70,17 @@ pixi run Rscript fig6/Fig6.R
 ### Option B: Using Micromamba / Conda
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/P_chinensis_mitogenome_vis.git
-   cd P_chinensis_mitogenome_vis
+   git clone https://github.com/huyha1314/P_chinensis_mitogenome.git
+   cd P_chinensis_mitogenome
    ```
 
 2. **Build the environment:**
    ```bash
    cd env
    ./create_env.sh
-   micromamba activate visualiz
+   # Or using conda:
+   # conda env create -f env.yml
+   # conda activate visualiz
    ```
    *Note: This will install Python 3.10, R 4.3.3, and all necessary bioinformatics libraries including Circos and pysam.*
 
