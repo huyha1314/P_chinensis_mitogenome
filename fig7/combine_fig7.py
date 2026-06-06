@@ -83,7 +83,10 @@ def combine_figures():
     formats = ['png', 'tiff', 'pdf']
     for ext in formats:
         output_file = f"{output_prefix}.{ext}"
-        plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white', format=ext)
+        if ext == 'tiff':
+            plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white', format=ext, pil_kwargs={"compression": "tiff_lzw"})
+        else:
+            plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white', format=ext)
         print(f"Success! Combined figure saved to {output_file}")
 
 if __name__ == "__main__":
