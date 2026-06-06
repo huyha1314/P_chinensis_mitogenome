@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the official visualization pipeline and source code for the genomic figures presented in the paper:  
-**"Structural Hyper-Variation and Adaptive Evolution in the Bipartite Mitogenome of Parashorea chinensis"**
+**"Mito-plastid discordance and structural hyper-variation in Parashorea chinensis reveal ancient introgression and Late Pleistocene isolation on Hainan Island"**
 
 The pipeline is designed for high reproducibility, utilizing pinned conda environments and automated execution scripts to generate publication-quality figures (TIFF/PNG/PDF/SVG).
 
